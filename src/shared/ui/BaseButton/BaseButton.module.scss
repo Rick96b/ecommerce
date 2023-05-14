@@ -1,0 +1,31 @@
+.baseButton {
+    padding: 13px 17px;
+
+    font-family: "Roboto";
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    letter-spacing: 0em;
+    text-align: center;
+
+    background-color: inherit;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.baseButton:hover {
+    color: #fff;
+
+    background-color: var(--color-dark);
+}
+
+.backgroundVisible {
+    color: #FFFFFF;
+
+    background-color: var(--color-dark);
+}
+
+.backgroundVisible:hover {
+    background-color: var(--color-dark-darker);
+}
