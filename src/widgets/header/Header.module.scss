@@ -30,3 +30,58 @@
     text-align: center;
     color: #585858;
 }
+
+@media (min-width: 769px) {
+    .headerTopContainer {
+        display: flex;
+
+        padding: 9px;
+        padding-bottom: 0;
+
+        font-family: Montserrat;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: 15px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .adressContainer {
+        margin-right: auto;
+    }
+
+    .emailContainer {
+        margin-right: 100px;
+    }
+
+    .headerLogoText {
+        font-family: Montserrat;
+        font-size: 26px;
+        font-weight: 800;
+        line-height: 32px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+
+    .headerBottomContainer {
+        display: flex;
+        align-items: center;
+
+        padding: 9px;
+    }
+
+    .navContainer {
+        display: flex;
+        justify-content: center;
+
+        margin-top: 20px;
+    }
+}
+
+@media (min-width: 1023px) {
+    .navContainer {
+        display: block;
+        
+        margin: 0 auto;
+    }
+}
